@@ -6,7 +6,7 @@ export default function Home() {
         <>
             <Head>
                 <title>
-                    About Us | Go Gift
+                    Sobre nós | Go Gift
                 </title>
             </Head>
             <div>

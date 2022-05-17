@@ -6,7 +6,7 @@ export default function PurchaseHistory() {
         <>
             <Head>
                 <title>
-                    Purchase History | Go Gift
+                    Histórico de compras | Go Gift
                 </title>
             </Head>
             <div>

@@ -6,7 +6,7 @@ export default function Home() {
         <>
             <Head>
                 <title>
-                    Promotion | Go Gift
+                    Promoções | Go Gift
                 </title>
             </Head>
             <div>

@@ -6,7 +6,7 @@ export default function Products() {
         <>
             <Head>
                 <title>
-                    Products | Go Gift
+                    Produtos | Go Gift
                 </title>
             </Head>
             <div>

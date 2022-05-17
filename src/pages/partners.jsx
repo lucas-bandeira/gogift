@@ -6,7 +6,7 @@ export default function Partners() {
         <>
             <Head>
                 <title>
-                    Partners | Go Gift
+                    Parceiros | Go Gift
                 </title>
             </Head>
             <div>
