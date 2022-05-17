@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -7,12 +8,12 @@ export default function Home() {
         <title>
           Home | Go Gift
         </title>
-        <div>
-          <h1>
-            Hello World
-          </h1>
-        </div>
       </Head>
+      <div>
+        <h1>
+          Hello World
+        </h1>
+      </div>
     </>
 
   )
