@@ -6,7 +6,7 @@ export default function Contact() {
         <>
             <Head>
                 <title>
-                    Contact | Go Gift
+                    Contato | Go Gift
                 </title>
             </Head>
             <div>

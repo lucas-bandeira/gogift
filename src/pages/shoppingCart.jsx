@@ -1,12 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 
-export default function Category() {
+export default function ShoppingCart() {
     return (
         <>
             <Head>
                 <title>
-                    Categoria | Go Gift
+                    Carrinho de compras | Go Gift
                 </title>
             </Head>
             <div>
