@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +16,10 @@
   --green-200: #ABCC99;
 
   --dark-green-600: #43592D;
+}
+
+html, body{
+  height: 100%;
 }
 
 @media (max-width: 1080px) {
