@@ -303,6 +303,79 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <footer className='mt-10 px-14'>
+                <div className='flex flex-row bg-gray-background2 justify-between p-2'>
+                    <div className='flex flex-col'>
+                        <div className='font-bold text-lg'>
+                            AJUDA E SUPORTE
+                        </div>
+                        <a href='#' className='mb-2 mt-6'>Informações sobre entrega</a>
+                        <a href='#' className='my-2'>Devolução</a>
+                        <a href='#' className='my-2'>Como pedir</a>
+                        <a href='#' className='my-2'>Como acompanhar</a>
+                    </div>
+                    <div className='flex flex-col'>
+                        <div className='font-bold text-lg'>
+                            ATENDIMENTO AO CONSUMIDOR
+                        </div>
+                        <a href='#' className='mb-2 mt-6'>Contate-nos</a>
+                        <a href='#' className='my-2'>Meios de Pagamento</a>
+                        <a href='#' className='my-2'>Bonus Point</a>
+                    </div>
+                    <div className='flex flex-col'>
+                        <div className='font-bold text-lg'>
+                            SOCIAIS
+                        </div>
+                        <div className='flex flex-row my-6'>
+                            <div className='mx-3'>
+                                <img src="./icons/facebook.svg" alt="logo do gogift"/>
+                            </div>
+                            <div className='mx-3'>
+                                <img src="./icons/twitter.svg" alt="logo do gogift"/>
+                            </div>
+                            <div className='mx-3'>
+                                <img src="./icons/instagram.svg" alt="logo do gogift"/>
+                            </div>
+                            <div className='mx-3'>
+                                <img src="./icons/tiktok.svg" alt="logo do gogift"/>
+                            </div>
+                            <div className='mx-3'>
+                                <img src="./icons/snapchat.svg" alt="logo do gogift"/>
+                            </div>
+                        </div>
+                        <div className='mt-auto '>
+                            <label className='font-bold' htmlFor="email">Inscreva-se aqui para receber promoções</label> <br/>
+                            <div className='flex flex-row mt-1'>
+                                <div className='w-full'>
+                                    <input className='border w-full h-11 p-2' type="text" placeholder='seu e-mail'/>
+                                </div>
+                                <div className='w-fit ml-2'>
+                                    <button className='p-3 bg-gray-button h-11 text-white w-48'>INSCREVA-SE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='mt-4'>
+                            <p>By clicking the SUBSCRIBE button, you are agreeing to our <a href="#" className='text-blue'><i>Privacy & Cookie Policy</i> </a></p>
+                        </div>
+                    </div>
+                    <div className='flex flex-col ml-[-200px]'>
+                        <div className='font-bold text-lg'>
+                            PLATAFORMAS
+                        </div>
+                        <div className='flex flex-row mt-6'>
+                            <div className='mx-3'>
+                                <img src="./icons/android.png" alt="logo do gogift"/>
+                            </div>
+                            <div className='mx-3'>
+                                <img  src="./icons/apple.png" alt="logo do gogift"/>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+
+            </footer>
         </>
 
     )

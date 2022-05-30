@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      blue: '#002aff',
       white: '#FFFFFF',
       black: '#000000',
       lightBlack: '#585858',
@@ -26,7 +27,7 @@ module.exports = {
         background: '#F4F4F4',
         background2: '#F3F3F3',
         border: '#E5E7EB',
-        active: '#161A17',
+        button: '#1F2937',
         inactive: '#ADACAB'
       }
     }
