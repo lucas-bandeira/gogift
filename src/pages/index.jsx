@@ -164,35 +164,11 @@ export default function Home() {
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
                                 <div className='flex flex-row justify-between w-full'>
                                     <div className='flex flex-col'>
-                                        <div className=' ml-4 mt-3'>
-                                            de R$ 120,00
+                                        <div className=' ml-4 mt-3 line-through text-[#808080]'>
+                                            R$ 120,00
                                         </div>
-                                        <div className='font-bold ml-4 '>
-                                            por R$ 80,00
-                                        </div>
-                                    </div>
-                                    <div className='font-bold mt-3'>
-                                        <p>24 unidades</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='flex flex-col border border-gray-border rounded'>
-                                <div className='relative'>
-                                    <div>
-                                        <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
-                                    </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
-                                    </div>
-                                </div>
-                                <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
-                                <div className='flex flex-row justify-between w-full'>
-                                    <div className='flex flex-col'>
-                                        <div className=' ml-4 mt-3'>
-                                            de R$ 120,00
-                                        </div>
-                                        <div className='font-bold ml-4 '>
-                                            por R$ 80,00
+                                        <div className='font-bold ml-4 text-xl'>
+                                            R$ 80,00
                                         </div>
                                     </div>
                                     <div className='font-bold mt-3'>
@@ -212,11 +188,35 @@ export default function Home() {
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
                                 <div className='flex flex-row justify-between w-full'>
                                     <div className='flex flex-col'>
-                                        <div className=' ml-4 mt-3'>
-                                            de R$ 120,00
+                                        <div className=' ml-4 mt-3 line-through text-[#808080]'>
+                                            R$ 120,00
                                         </div>
-                                        <div className='font-bold ml-4 '>
-                                            por R$ 80,00
+                                        <div className='font-bold ml-4 text-xl '>
+                                            R$ 80,00
+                                        </div>
+                                    </div>
+                                    <div className='font-bold mt-3'>
+                                        <p>24 unidades</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='flex flex-col border border-gray-border rounded'>
+                                <div className='relative'>
+                                    <div>
+                                        <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
+                                    </div>
+                                    <div className='absolute right-4 top-4 bg-brown p-2'>
+                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    </div>
+                                </div>
+                                <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
+                                <div className='flex flex-row justify-between w-full'>
+                                    <div className='flex flex-col'>
+                                        <div className=' ml-4 mt-3 line-through text-[#808080]'>
+                                            R$ 120,00
+                                        </div>
+                                        <div className='font-bold ml-4 text-xl '>
+                                            R$ 80,00
                                         </div>
                                     </div>
                                     <div className='font-bold mt-3'>
@@ -238,35 +238,11 @@ export default function Home() {
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
                                 <div className='flex flex-row justify-between w-full'>
                                     <div className='flex flex-col'>
-                                        <div className=' ml-4 mt-3'>
-                                            de R$ 120,00
+                                        <div className=' ml-4 mt-3 line-through text-[#808080]'>
+                                            R$ 120,00
                                         </div>
-                                        <div className='font-bold ml-4 '>
-                                            por R$ 80,00
-                                        </div>
-                                    </div>
-                                    <div className='font-bold mt-3'>
-                                        <p>24 unidades</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='flex flex-col border border-gray-border rounded'>
-                                <div className='relative'>
-                                    <div>
-                                        <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
-                                    </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
-                                    </div>
-                                </div>
-                                <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
-                                <div className='flex flex-row justify-between w-full'>
-                                    <div className='flex flex-col'>
-                                        <div className=' ml-4 mt-3'>
-                                            de R$ 120,00
-                                        </div>
-                                        <div className='font-bold ml-4 '>
-                                            por R$ 80,00
+                                        <div className='font-bold ml-4 text-xl '>
+                                            R$ 80,00
                                         </div>
                                     </div>
                                     <div className='font-bold mt-3'>
@@ -286,11 +262,35 @@ export default function Home() {
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
                                 <div className='flex flex-row justify-between w-full'>
                                     <div className='flex flex-col'>
-                                        <div className=' ml-4 mt-3'>
-                                            de R$ 120,00
+                                        <div className=' ml-4 mt-3 line-through text-[#808080]'>
+                                            R$ 120,00
                                         </div>
-                                        <div className='font-bold ml-4 '>
-                                            por R$ 80,00
+                                        <div className='font-bold ml-4 text-xl '>
+                                            R$ 80,00
+                                        </div>
+                                    </div>
+                                    <div className='font-bold mt-3'>
+                                        <p>24 unidades</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='flex flex-col border border-gray-border rounded'>
+                                <div className='relative'>
+                                    <div>
+                                        <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
+                                    </div>
+                                    <div className='absolute right-4 top-4 bg-brown p-2'>
+                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    </div>
+                                </div>
+                                <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
+                                <div className='flex flex-row justify-between w-full'>
+                                    <div className='flex flex-col'>
+                                        <div className=' ml-4 mt-3 line-through text-[#808080]'>
+                                            R$ 120,00
+                                        </div>
+                                        <div className='font-bold ml-4 text-xl '>
+                                            R$ 80,00
                                         </div>
                                     </div>
                                     <div className='font-bold mt-3'>
