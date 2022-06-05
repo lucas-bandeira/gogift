@@ -1,0 +1,53 @@
+
+.container{
+  width: 99vw;
+  height: 80vh;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+
+}
+
+.container h1{
+  color: purple;
+  font-size: 4rem;
+}
+.formStyle{
+  color: rgb(145, 145, 145);
+  font-weight: bold;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 40px;
+
+
+}
+
+.formStyle input{
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(19, 19, 19);
+  padding: 3px;
+  padding-left: 15px;
+}
+
+.enviar_button{
+  align-self: center;
+  color: purple;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: yellow;
+  width: 150px;
+  height: 40px;
+}
+
+.enviar_button:hover{
+  background-color: purple;
+  color: yellow;
+}

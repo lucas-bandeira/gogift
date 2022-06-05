@@ -1,0 +1,59 @@
+.login_container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+
+
+
+.imgSize{
+  width: 150px;
+  
+}
+
+.formLogin{
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.formLogin input{
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(19, 19, 19);
+  padding: 3px;
+  padding-left: 15px;
+  width: 300px;
+}
+
+.formLogin a {
+  font-size: 0.9rem;
+}
+
+.behindButton{
+  width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.behindButton button{
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: yellow;
+}
+
+
+

@@ -42,7 +42,17 @@ button {
   cursor: pointer;
 }
 
+input{
+  margin-top: 4px;
+  width: 200px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.img_resize{
+  width: 100px;
+  height: 100px;
 }

@@ -8,15 +8,20 @@ function MyApp({ Component, pageProps }) {
       <div>
         <div className='flex flex-row w-full px-10 h-fit justify-between justify-center align-center '>
             <div className='mt-auto'>
-                <img src="./icons/logo.svg" alt="logo do gogift"/>
+                <img  src="./icons/logo.svg" alt="logo do gogift"/>
             </div>
             <div className='mt-auto'>
                 <input className='border-b w-80' type="text" placeholder='Pesquise um produto'/>
             </div>
             <div className='flex flex-row mt-auto'>
                 <div className='mr-5'>
-                    <Link  href="/">
-                        Conta
+                    <Link  href="/cadastro">
+                        Crie sua conta
+                    </Link>
+                </div>
+                <div className='mr-5'>
+                    <Link  href="/login">
+                        Entre
                     </Link>
                 </div>
                 <div className='flex flex-row '>
@@ -51,7 +56,7 @@ function MyApp({ Component, pageProps }) {
                 </Link>
             </div>
             <div>
-                <Link  href="/">
+                <Link  href="/contact">
                     Contato
                 </Link>
             </div>
