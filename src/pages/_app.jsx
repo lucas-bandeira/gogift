@@ -15,8 +15,13 @@ function MyApp({ Component, pageProps }) {
             </div>
             <div className='flex flex-row mt-auto'>
                 <div className='mr-5'>
-                    <Link  href="/">
-                        Conta
+                    <Link  href="/login">
+                        Entre
+                    </Link>
+                </div>
+                <div className='mr-5'>
+                    <Link  href="/cadastro">
+                        Crie sua conta
                     </Link>
                 </div>
                 <div className='flex flex-row '>
