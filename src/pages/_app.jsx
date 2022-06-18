@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
                 </Link>
             </div>
             <div>
-                <Link  href="/">
+                <Link  href="/contact">
                     Contato
                 </Link>
             </div>
