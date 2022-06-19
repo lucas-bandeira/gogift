@@ -1,0 +1,36 @@
+
+.container{
+    width: 99vw;
+    height: 10vh;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  
+}  
+.container h1{
+    color: purple;
+    font-size: 3rem;
+
+}
+
+.formStyle{
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 40px;
+  
+  
+}
+.formStyle input{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(19, 19, 19);
+    padding: 3px;
+    padding-left: 15px;
+}

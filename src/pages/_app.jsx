@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
                 </Link>
             </div>
             <div>
-                <Link  href="/">
+                <Link  href="/partners">
                     Seja um parceiro
                 </Link>
             </div>
