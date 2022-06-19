@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import styles from "../styles/Contato.module.css"
+import Input from "../components/Input";
 
 export default function Contact() {
     const submitForm = () => {
@@ -18,10 +19,7 @@ export default function Contact() {
                     </h1>
                     <form action="https://formsubmit.co/daniel.fn@sempreceub.com"
                           method="POST">
-                        <div className="my-2 flex flex-col w-full">
-                            <label htmlFor="nome " className='font-bold'>Nome</label>
-                            <input type="text" name="name" className="border-2 p-2 rounded-xl w-full" required/>
-                        </div>
+                        <Input label={"Nome"} name={"name"}/>
                         <div className="my-2 flex flex-col">
                             <label htmlFor="email" className='font-bold w-full'>Email</label>
                             <input type="email" name="email" className="border-2 p-2 rounded-xl w-full" required/>
