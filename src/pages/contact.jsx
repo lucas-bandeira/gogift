@@ -13,15 +13,7 @@ export default function Contact() {
             <div className="flex justify-center flex-col h-full">
                 <div className="w-4/12 m-auto p-8 shadow-2xl rounded-xl">
                     <h1 className="text-4x1 font-bold flex items-center ">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-12 transform translate-20,2.5 rotate-45"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                        >
-                            <path
-                                d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
-                        </svg>
+                        <img className="h-12 transform translate-20,2.5 rotate-45" src="./icons/contactUs.svg" alt="gogift"/>
                         <div className='text-4xl font-bold'>CONTATE-NOS</div>
                     </h1>
                     <form action="https://formsubmit.co/daniel.fn@sempreceub.com"
