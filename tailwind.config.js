@@ -14,6 +14,9 @@ module.exports = {
       red_600: '#BF283A',
       red_900: '#FF0000',
       brown: '#964100',
+      yellow: '#FFDF00',
+      yellow_600: '#FFBA00',
+      purple: '#69147C',
       green: {
         background: '#ABCC99',
         button: '#39C516',

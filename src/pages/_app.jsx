@@ -5,10 +5,10 @@ import Link from "next/link";
 function MyApp({ Component, pageProps }) {
   return (
 
-      <div>
-        <div className='flex flex-row w-full px-10 h-fit justify-between justify-center align-center '>
-            <div className='mt-auto'>
-                <img src="./icons/logo.svg" alt="logo do gogift"/>
+      <div className='h-[-webkit-fill-avaiable]'>
+        <div className='flex flex-row w-full px-10 h-full justify-between justify-center align-center '>
+            <div className='mt-4'>
+                <img className='w-16 h-14' src="./icons/NewLogo.png" alt="logo do gogift"/>
             </div>
             <div className='mt-auto'>
                 <input className='border-b w-80' type="text" placeholder='Pesquise um produto'/>
