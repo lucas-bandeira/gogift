@@ -1,7 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
+import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
 
 export default function Home() {
+    const [like, setLike] = React.useState(false);
+
+    function handleLike(){
+        setLike(!like)
+    }
+
     return (
         <>
             <Head>
@@ -10,7 +17,7 @@ export default function Home() {
                 </title>
             </Head>
             <div className='px-14'>
-                <div className='flex flex-row bg-red_600 h-[120px] text-white p-8 rounded-2xl'>
+                <div className='flex flex-row bg-purple h-[120px] text-white p-8 rounded-2xl'>
                     <div>
                         <h1 className='text-xl mb-2'>80% OFF NO DIA DAS MÃES!</h1>
                         <p>Ganhe até 80% de desconto nos produtos selecionados até o dia 8/5! Saiba mais aqui.</p>
@@ -19,7 +26,7 @@ export default function Home() {
                         <img src="./icons/motherChilling.svg" alt="logo do gogift"/>
                     </div>
                 </div>
-                <div className=' bg-red_600 h-[588px] mt-[35px] text-white p-4 relative rounded-2xl'>
+                <div className=' bg-purple h-[588px] mt-[35px] text-white p-4 relative rounded-2xl'>
                     <div className='flex flex-col bg-[url("/icons/backgroundCarroussel.svg")] h-full'>
                         <div className='flex flex-row h-full text-white p-8 rounded-2xl'>
                             <img className='h-80 mx-auto' src="./icons/redGift.svg" alt="logo do gogift"/>
@@ -27,19 +34,19 @@ export default function Home() {
                                  alt="logo do gogift"/>
                         </div>
                         <div className='flex w-full justify-evenly p-4'>
-                            <button className='btn btn-ghost bg-red_900 rounded-3xl w-fit px-20 text-lg'>
+                            <button className='btn btn-ghost bg-yellow_600 rounded-3xl w-fit px-20 text-lg'>
                                 Entrega Express
                             </button>
-                            <button className='btn btn-ghost bg-red_900 rounded-3xl w-fit px-20 text-lg'>
+                            <button className='btn btn-ghost bg-yellow_600 rounded-3xl w-fit px-20 text-lg'>
                                 Comprar Presente
                             </button>
-                            <button className='btn btn-ghost bg-red_900 rounded-3xl w-fit px-20 text-lg'>
+                            <button className='btn btn-ghost bg-yellow_600 rounded-3xl w-fit px-20 text-lg'>
                                 Seja um parceiro!
                             </button>
                         </div>
                     </div>
                 </div>
-                <div className='flex w-full text-red_400 text-7xl font-bold '>
+                <div className='flex w-full text-purple text-7xl font-bold '>
                     <div className='mx-auto mt-10'>
                         <h1>Seu presente entrege em até 48 horas</h1>
                     </div>
@@ -58,7 +65,7 @@ export default function Home() {
                             <p className='mb-2'>de R$120,25</p>
                             <p className='font-bold text-lg'>por R$100,00</p>
 
-                            <button className='btn btn-ghost bg-red_900 rounded-3xl w-56 mt-5 text-white text-lg'>
+                            <button className='btn btn-ghost bg-yellow_600 rounded-3xl w-56 mt-5 text-white text-lg'>
                                 Comprar
                             </button>
                         </div>
@@ -157,8 +164,14 @@ export default function Home() {
                                     <div>
                                         <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
                                     </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    <div className='absolute right-4 top-4 p-2 cursor-pointer' onClick={handleLike}>
+                                        {
+                                            like ?
+                                                <AiFillHeart color={'#FFFFFF'} size={28}/>
+                                                :
+                                                <AiOutlineHeart color={'#FFFFFF'} size={28}/>
+
+                                        }
                                     </div>
                                 </div>
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
@@ -181,8 +194,9 @@ export default function Home() {
                                     <div>
                                         <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
                                     </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    <div className='absolute right-4 top-4 p-2'>
+                                        <AiOutlineHeart color={'#FFFFFF'} size={28}/>
+
                                     </div>
                                 </div>
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
@@ -205,8 +219,9 @@ export default function Home() {
                                     <div>
                                         <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
                                     </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    <div className='absolute right-4 top-4 p-2'>
+                                        <AiOutlineHeart color={'#FFFFFF'} size={28}/>
+
                                     </div>
                                 </div>
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
@@ -231,8 +246,9 @@ export default function Home() {
                                     <div>
                                         <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
                                     </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    <div className='absolute right-4 top-4 p-2'>
+                                        <AiOutlineHeart color={'#FFFFFF'} size={28}/>
+
                                     </div>
                                 </div>
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
@@ -255,8 +271,9 @@ export default function Home() {
                                     <div>
                                         <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
                                     </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    <div className='absolute right-4 top-4 p-2'>
+                                        <AiOutlineHeart color={'#FFFFFF'} size={28}/>
+
                                     </div>
                                 </div>
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
@@ -279,8 +296,9 @@ export default function Home() {
                                     <div>
                                         <img  src="./icons/Chocolates.svg" alt="imagem do chocolate"/>
                                     </div>
-                                    <div className='absolute right-4 top-4 bg-brown p-2'>
-                                        <img  src="./icons/heart.svg" alt="imagem do chocolate"/>
+                                    <div className='absolute right-4 top-4 p-2'>
+                                        <AiOutlineHeart color={'#FFFFFF'} size={28}/>
+
                                     </div>
                                 </div>
                                 <div className='font-bold ml-4 mt-3'>Chocolate Ao Leite</div>
